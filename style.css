@@ -1,0 +1,67 @@
+.nav-link{
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}
+.list{
+    list-style: none;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    color: #0ed;
+}
+h2{
+    padding: 20px;
+    text-decoration: underline;
+}
+
+/* --------------------------------------------skilll-------------------------------------- */
+
+
+ 
+label{
+    color: #C11C84;
+    font-size: 25px;
+    font-weight: 650;
+}
+
+
+/* ---------------------------------------------projects-------------------------------------- */
+
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+
+#project{
+    /* background-color: black; */
+    padding-top: 3rem;
+    height: auto;
+}
+ 
+
+
+
+/* -------------------------------------media queries------------------------------------- */
+
+@media screen and (max-width:575){
+    .HideOnMobile{
+        color: red;
+        display: grid;
+    }
+}
